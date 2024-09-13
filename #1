@@ -1,0 +1,91 @@
+# 1. Introducción a la electrónica digital y los microprocesadores 
+En este primer se llevo a cabo las definiciones de varios conceptos de relevancia dentro la electrónica digital como lo son las señales digitales, las magnitudes, las formas de onda, los sistemas de numeración (decimal, binario, octal y hexadecimal). 
+## 2. Señales analógicas vs señales digitales.
+
+### 2.1 Señales analógicas.
+
+>🔑*Definición*: Una señal analógica es una señal continua que puede tomar un número infinito de valores dentro de un rango específico. Estas señales representan variaciones suaves y continuas de una magnitud física a lo largo del tiempo, como voltaje, corriente, temperatura, o sonido. 
+![Señal analógica](https://th.bing.com/th/id/OIP.MFnXXHqbzvSj7h8qN4a30QAAAA?rs=1&pid=ImgDetMain)
+
+Figura 1. Señal analógica.
+
+### 2.2 Señales digítales
+
+>🔑*Definición*: Una señal digital es una señal que tiene valores discretos, lo que significa que solo puede tomar un número finito de estados, generalmente representados por dos niveles: 0 y 1. Estas señales no son continuas como las señales analógicas, sino que se componen de saltos abruptos entre sus estados, alternando entre los valores discretos.
+
+![Señal digital](https://th.bing.com/th/id/R.5732aa9ca7b8d01d14fa0286f65f99d2?rik=c%2b948IkGdvaC4w&pid=ImgRaw&r=0)
+
+Figura 2. Señal digítal.
+## 3. Números binarios. 
+>🔑*Definición*: Un número binario es un número expresado en el sistema binario, que es un sistema de numeración de base 2. En este sistema, solo se utilizan dos dígitos o símbolos: 0 y 1. Cada posición de un número binario representa una potencia de 2, de forma similar a como las posiciones en el sistema decimal representan potencias de 10.
+
+![Binarios](https://www.topgadget.com.br/wp-content/uploads/2021/05/binario-1024x724.jpg)
+
+Figura 3. Números binarios.
+
+## 4. Sistema octal.
+
+El sistema octal es un sistema de numeración de base 8. En este sistema, se utilizan 8 dígitos diferentes para representar los números: del 0 al 7. Cada posición en un número octal representa una potencia de 8, en lugar de las potencias de 10 en el sistema decimal.
+
+Adicionalmente se usa en informática y electrónica digital debido a su relación directa con el sistema binario. Cada dígito octal se puede representar exactamente con tres bits binarios, lo que facilita la conversión entre los dos sistemas
+
+![Octal](https://www.wikihow.com/images/2/29/Convert-Binary-to-Octal-Number-Step-11-Version-2.jpg)
+
+Figura 4. Sistema octal.
+
+## 5. Números hexadecimales.
+
+El sistema hexadecimal utiliza dieciséis símbolos: los dígitos del 0 al 9, y las letras A, B, C, D, E, F, que representan los valores del 10 al 15. Es común en la representación de direcciones de memoria y colores en informática, ya que facilita la manipulación de grandes cadenas de números binarios
+
+## 6. Conversión entre Sistemas Numéricos. 
+
+### 6.1 De Binario a Decimal
+
+La conversión de binario a decimal se basa en multiplicar cada dígito del número binario por su correspondiente potencia de 2 y sumar los resultados.
+Ejemplo: Convertir 1101₂ a decimal.
+
+El número binario 1101 tiene las siguientes posiciones:
+
+
+
+
+### 6.2 De Decimal a Binario
+
+Para convertir un número decimal a binario, se divide el número decimal entre 2 y se anotan los restos. El número binario resultante se obtiene leyendo los restos de abajo hacia arriba.
+
+Ejemplo: Convertir 19₁₀ a binario.
+
+### 6.3 De Decimal a Hexadecimal.
+
+Para convertir un número decimal a hexadecimal, se sigue un proceso similar al de la conversión a binario, pero dividiendo entre 16.
+
+Ejemplo: Convertir 255₁₀ a hexadecimal.
+
+### 6.4 De Hexadecimal a Decimal.
+
+Para convertir un número hexadecimal a decimal, se multiplica cada dígito por la potencia correspondiente de 16 y se suman los resultados.
+
+Ejemplo: Convertir 1A₁₆ a decimal
+El número hexadecimal 1A representa:
+
+### 6.5 De Binario a Hexadecimal.
+
+Como 16 es una potencia de 2, la conversión entre binario y hexadecimal es directa. Se agrupan los dígitos binarios en bloques de 4, empezando desde la derecha, y se convierte cada grupo a su equivalente hexadecimal.
+
+Ejemplo: Convertir 11011100₂ a hexadecimal.
+
+### 6.6 De Hexadecimal a Binario.
+
+Para convertir un número hexadecimal a binario, cada dígito hexadecimal se convierte en su equivalente de 4 dígitos binarios.
+
+Ejemplo: Convertir 3B₁₆ a binario
+
+
+## 7. Sistemas de Base Media
+
+
+Aunque en el mundo digital el binario, octal y hexadecimal son los sistemas más utilizados, otros sistemas de base media, como el sistema base 3 (ternario) o el sistema base 5, tienen aplicaciones en teoría de números y ciertos tipos de computación.
+
+
+
+
